@@ -21,31 +21,31 @@ window.TAHAWA_MENU = {
    "href": "https://tahawa.com.vn/chinh-sach-cua-tahawa.html",
    "sub": [
     {
-     "t": "CHÍNH SÁCH TRẢ GÓP TAHAWA",
+     "t": "CHÍNH SÁCH TRẢ GÓP ADZCO",
      "href": "https://tahawa.com.vn/chinh-sach-tra-gop-tahawa.html"
     },
     {
-     "t": "CHÍNH SÁCH BÁN HÀNG CỦA TAHAWA",
+     "t": "CHÍNH SÁCH BÁN HÀNG CỦA ADZCO",
      "href": "https://tahawa.com.vn/chinh-sach-ban-hang-cua-tahawa.html"
     },
     {
-     "t": "CHÍNH SÁCH BẢO HÀNH CỦA TAHAWA",
+     "t": "CHÍNH SÁCH BẢO HÀNH CỦA ADZCO",
      "href": "https://tahawa.com.vn/chinh-sach-bao-hanh-cua-tahawa.html"
     },
     {
-     "t": "CHÍNH SÁCH VẬN CHUYỂN - GIAO NHẬN CỦA TAHAWA",
+     "t": "CHÍNH SÁCH VẬN CHUYỂN - GIAO NHẬN CỦA ADZCO",
      "href": "https://tahawa.com.vn/chinh-sach-van-chuyen-giao-nhan-cua-tahawa.html"
     },
     {
-     "t": "CHÍNH SÁCH ĐỔI TRẢ CỦA TAHAWA",
+     "t": "CHÍNH SÁCH ĐỔI TRẢ CỦA ADZCO",
      "href": "https://tahawa.com.vn/chinh-sach-doi-tra-cua-tahawa.html"
     },
     {
-     "t": "CHÍNH SÁCH THANH TOÁN CỦA TAHAWA",
+     "t": "CHÍNH SÁCH THANH TOÁN CỦA ADZCO",
      "href": "https://tahawa.com.vn/chinh-sach-thanh-toan-cua-tahawa.html"
     },
     {
-     "t": "BẢO MẬT THÔNG TIN KHÁCH HÀNG CỦA TAHAWA",
+     "t": "BẢO MẬT THÔNG TIN KHÁCH HÀNG CỦA ADZCO",
      "href": "https://tahawa.com.vn/chinh-sach-bao-mat-thong-tin-khach-hang-cua-tahawa.html"
     }
    ]

@@ -53,7 +53,7 @@ function write(urlPath, html) {
 /* ---------- Trang chủ ---------- */
 write('/', T.layout(ctx, {
   path: '/', bodyClass: 'homepage', isHome: true,
-  meta: { title: 'Tahawa - Thiết Bị Công Nghiệp Nhật Bản Chính Hãng', description: 'Tahawa - Thiết Bị Công Nghiệp Nhật Bản Chính Hãng' },
+  meta: { title: 'Adzco - Thiết Bị Công Nghiệp Nhật Bản Chính Hãng', description: 'Adzco - Thiết Bị Công Nghiệp Nhật Bản Chính Hãng' },
   main: P.homeMain, scripts: ['/js/data.js', '/js/home.js'],
 }));
 

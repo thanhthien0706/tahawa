@@ -20,7 +20,7 @@
     return '<picture>' +
       (lg ? '<source media="(min-width: 650px)" srcset="' + esc(lg) + '">' : '') +
       (sm ? '<source media="(min-width: 350px)" srcset="' + esc(sm) + '">' : '') +
-      '<img src="' + esc(lg || sm) + '" alt="' + esc(alt || 'Tahawa') + '" draggable="false"></picture>';
+      '<img src="' + esc(lg || sm) + '" alt="' + esc(alt || 'Adzco') + '" draggable="false"></picture>';
   };
   var stars = '<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>';
 
@@ -32,7 +32,6 @@
       buttons = '<a href="' + link(p.bhref) + '" class="btn-item" rel="nofollow"><i class="fa fa-shopping-cart"></i> <span>MUA NGAY</span></a>';
     } else {
       buttons = '<div class="product-buttons-group">' +
-        '<button type="button" class="btn-item buy_now"><i class="fa fa-shopping-basket"></i> <span>Mua ngay</span></button>' +
         '<button type="button" class="btn-item add_to_cart"><i class="fa fa-shopping-cart"></i> <span>Thêm vào giỏ hàng</span></button>' +
         '</div>';
     }
@@ -73,7 +72,7 @@
   /* ---------------- Render sections ---------------- */
   function renderSections() {
     $('[data-hero]').innerHTML = D.hero.map(function (h) {
-      var pic = picture(h.lg, h.sm, 'Tahawa - Thiết Bị Công Nghiệp Nhật Bản Chính Hãng');
+      var pic = picture(h.lg, h.sm, 'Adzco - Thiết Bị Công Nghiệp Nhật Bản Chính Hãng');
       return '<div class="hero-item">' + (h.href ? '<a href="' + link(h.href) + '">' + pic + '</a>' : pic) + '</div>';
     }).join('');
 
@@ -84,7 +83,7 @@
     $$('[data-banners]').forEach(function (box) {
       var list = D.banners[box.dataset.banners] || [];
       box.innerHTML = list.map(function (b) {
-        var img = '<img src="' + esc(b.img) + '" alt="Tahawa - Thiết Bị Công Nghiệp Nhật Bản Chính Hãng" loading="lazy">';
+        var img = '<img src="' + esc(b.img) + '" alt="Adzco - Thiết Bị Công Nghiệp Nhật Bản Chính Hãng" loading="lazy">';
         var inner = b.href ? '<a href="' + link(b.href) + '"' + (b.target ? ' target="_blank" rel="noopener"' : '') + '>' + img + '</a>' : img;
         return box.classList.contains('banner-single') ? inner : '<div>' + inner + '</div>';
       }).join('');

@@ -304,7 +304,7 @@
       if (!items.length) { msg.hidden = false; msg.className = 'checkout-msg is-error'; msg.textContent = 'Giỏ hàng của bạn đang trống.'; return; }
       if (!ok) { msg.hidden = false; msg.className = 'checkout-msg is-error'; msg.textContent = 'Vui lòng nhập đầy đủ các thông tin bắt buộc (*).'; return; }
       C.set([]);
-      form.innerHTML = '<div class="checkout-done"><i class="fas fa-check-circle"></i><h2>Đặt hàng thành công!</h2><p>Cảm ơn bạn đã mua hàng tại Tahawa. Chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất.</p><a href="/" class="btn-send">Tiếp tục mua hàng</a></div>';
+      form.innerHTML = '<div class="checkout-done"><i class="fas fa-check-circle"></i><h2>Đặt hàng thành công!</h2><p>Cảm ơn bạn đã mua hàng tại Adzco. Chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất.</p><a href="/" class="btn-send">Tiếp tục mua hàng</a></div>';
       window.scrollTo(0, 0);
     });
   }
@@ -355,7 +355,7 @@
       var price = p.price ? '<p class="price"><strong class="new">' + esc(p.price) + '</strong>' + (p.old ? ' <span class="old">' + esc(p.old) + '</span>' : '') + (p.disc ? ' <span class="label-discount">' + esc(p.disc) + '</span>' : '') + ' </p>' : '';
       var btns = p.btn === 'contact'
         ? '<a href="/lien-he/" class="btn-item btn-contact"><i class="fa fa-phone-alt"></i> <span>Liên hệ</span></a>'
-        : '<div class="product-buttons-group"><button type="button" class="btn-item buy_now"><i class="fa fa-shopping-basket"></i> <span>Mua ngay</span></button><button type="button" class="btn-item add_to_cart"><i class="fa fa-shopping-cart"></i> <span>Thêm vào giỏ hàng</span></button></div>';
+        : '<div class="product-buttons-group"><button type="button" class="btn-item add_to_cart"><i class="fa fa-shopping-cart"></i> <span>Thêm vào giỏ hàng</span></button></div>';
       return '<div class="cat-col" data-order="' + i + '"><div class="product-item" data-name="' + esc(p.name) + '" data-price="' + esc(p.price || '') + '" data-old="' + esc(p.old || '') + '" data-disc="' + esc(p.disc || '') + '" data-img="' + esc(p.img || '') + '" data-href="' + esc(p.href) + '"><figure class="photoframe">' +
         '<div class="img-product"><a href="' + esc(p.href) + '"><img src="' + esc(p.img) + '" alt="' + esc(p.name) + '" loading="lazy"></a><div class="img-btns"></div></div>' +
         '<figcaption class="infor-product"><h3 class="product-title"><a href="' + esc(p.href) + '" class="two-lines">' + esc(p.name) + '</a></h3>' +

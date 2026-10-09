@@ -3,7 +3,7 @@
 const V = Date.now().toString(36);
 const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const href = (h) => esc(h || '#');
-const SITE_NAME = 'Tahawa - Thiết Bị Công Nghiệp Nhật Bản Chính Hãng';
+const SITE_NAME = 'Adzco - Thiết Bị Công Nghiệp Nhật Bản Chính Hãng';
 const stars = (n = 5) => Array.from({ length: 5 }, (_, i) => `<i class="fa fa-star${i < n ? ' is-on' : ''}"></i>`).join('');
 
 /* =========================================================
@@ -95,7 +95,6 @@ export function productButtons(p) {
   if (p.btn === 'contact') return `<a href="${href(p.bhref || '/lien-he/')}" class="btn-item btn-contact"><i class="fa fa-phone-alt"></i> <span>Liên hệ</span></a>`;
   if (p.btn === 'link') return `<a href="${href(p.bhref)}" class="btn-item" rel="nofollow"><i class="fa fa-shopping-cart"></i> <span>MUA NGAY</span></a>`;
   return '<div class="product-buttons-group">' +
-    '<button type="button" class="btn-item buy_now"><i class="fa fa-shopping-basket"></i> <span>Mua ngay</span></button>' +
     '<button type="button" class="btn-item add_to_cart"><i class="fa fa-shopping-cart"></i> <span>Thêm vào giỏ hàng</span></button></div>';
 }
 
@@ -144,7 +143,7 @@ export function sidebar(sb) {
   const posts = sb.posts.map((p) => postCard(p)).join('');
   return `<aside class="widget-sidebar">
   <div class="sb-widget sb-fanpage">${boxHeading('FANPAGE', 'div')}
-    <div class="sb-content text-center"><iframe loading="lazy" title="Fanpage Tahawa" src="${esc(sb.fanpage)}" width="100%" height="200" style="border:none;overflow:hidden" scrolling="no" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></div>
+    <div class="sb-content text-center"><iframe loading="lazy" title="Fanpage Adzco" src="${esc(sb.fanpage)}" width="100%" height="200" style="border:none;overflow:hidden" scrolling="no" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></div>
   </div>
   <div class="sb-widget sb-products">${boxHeading(sb.featuredTitle || 'SẢN PHẨM NỔI BẬT', 'div')}<div class="sb-content">${featured}</div></div>
   <div class="sb-widget sb-posts">${boxHeading(sb.postsTitle || 'TIN CHO BẠN', 'div')}<div class="sb-content">${posts}</div></div>
@@ -342,7 +341,7 @@ function cartPage(ctx, p, d) {
     </div>
     <div class="cart-continue"><a class="continue_shopping" href="/"><i class="fa fa-arrow-left"></i> Tiếp tục mua hàng</a></div>
   </div></div>`;
-  return layout(ctx, { path: p, bodyClass: 'cart', meta: { title: 'Tahawa - Giỏ hàng' }, main, scripts: ['/js/pages.js'] });
+  return layout(ctx, { path: p, bodyClass: 'cart', meta: { title: 'Adzco - Giỏ hàng' }, main, scripts: ['/js/pages.js'] });
 }
 
 function accountPage(ctx, p, d, kind) {
@@ -368,7 +367,7 @@ function accountPage(ctx, p, d, kind) {
       </div></div></div>
     </form>
   </div></div></div>`;
-  return layout(ctx, { path: p, bodyClass: login ? 'user-login' : 'user-register', meta: { title: login ? 'Tahawa - Đăng nhập' : 'Tahawa - Đăng ký' }, breadcrumbs: [{ t: 'Trang chủ', href: '/' }, { t: login ? 'Đăng nhập' : 'Đăng ký' }], main, scripts: ['/js/pages.js'] });
+  return layout(ctx, { path: p, bodyClass: login ? 'user-login' : 'user-register', meta: { title: login ? 'Adzco - Đăng nhập' : 'Adzco - Đăng ký' }, breadcrumbs: [{ t: 'Trang chủ', href: '/' }, { t: login ? 'Đăng nhập' : 'Đăng ký' }], main, scripts: ['/js/pages.js'] });
 }
 
 export function checkoutPage() {
@@ -378,7 +377,7 @@ export function checkoutPage() {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   ${REDIRECT_SNIPPET}
-  <title>Tahawa - Thanh toán đơn hàng</title>
+  <title>Adzco - Thanh toán đơn hàng</title>
   <meta name="robots" content="noindex">
   <link rel="icon" href="/assets/img/media/logo-tahawa-den.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -449,7 +448,7 @@ export function searchPage(ctx) {
     <div class="product-grid product-grid--cat" data-search-results></div>
     <p class="search-empty" hidden>Không tìm thấy sản phẩm nào phù hợp.</p>
   </div>`;
-  return layout(ctx, { path: '/tim-kiem/', bodyClass: 'category_product search', meta: { title: 'Tìm kiếm - Tahawa' }, breadcrumbs: [{ t: 'Trang chủ', href: '/' }, { t: 'Tìm kiếm' }], main: withSidebar(ctx, html), scripts: ['/js/search-index.js', '/js/pages.js'] });
+  return layout(ctx, { path: '/tim-kiem/', bodyClass: 'category_product search', meta: { title: 'Tìm kiếm - Adzco' }, breadcrumbs: [{ t: 'Trang chủ', href: '/' }, { t: 'Tìm kiếm' }], main: withSidebar(ctx, html), scripts: ['/js/search-index.js', '/js/pages.js'] });
 }
 
 export function notFoundPage(ctx, overrides) {
@@ -469,7 +468,7 @@ export function notFoundPage(ctx, overrides) {
     <h1>404</h1><p>Trang bạn tìm không tồn tại hoặc đã được chuyển.</p>
     <p><a href="/" class="btn-send">Về trang chủ</a></p>
   </div></div>`;
-  return layout(ctx, { path: '/404.html', bodyClass: 'not-found-page', meta: { title: 'Không tìm thấy trang - Tahawa' }, main }).replace('</head>', script + '\n</head>');
+  return layout(ctx, { path: '/404.html', bodyClass: 'not-found-page', meta: { title: 'Không tìm thấy trang - Adzco' }, main }).replace('</head>', script + '\n</head>');
 }
 
 export function renderPage(ctx, p, d) {

@@ -1434,23 +1434,23 @@ window.TAHAWA_DATA = {
  ],
  "projects": [
   {
-   "title": "Tahawa Giao Máy Hút Bụi Công Nghiệp 80 Lít Cho Công Ty Cổ Phần Sản Xuất Thương Mại Huỳnh Đạt – Huynh Dat JSC",
+   "title": "Adzco Giao Máy Hút Bụi Công Nghiệp 80 Lít Cho Công Ty Cổ Phần Sản Xuất Thương Mại Huỳnh Đạt – Huynh Dat JSC",
    "href": "/tahawa-giao-may-hut-bui-cong-nghiep-80l-cho-huynh-dat-jsc/",
    "img": "/assets/img/media/thumb/346x259/may-hut-bui-cong-nghiep-80l.jpg",
    "date": "05/06/2024",
    "views": "1188 Lượt xem",
-   "desc": "<p>Vừa qua, <strong><a href=\"/\">Tahawa</a></strong> đã vinh dự được lựa chọn là đối tác cung cấp <a href=\"/may-hut-bui-cong-nghiep-tahawa-th-803j/\"><span style=\"color:#2980b9;\"><strong>máy hút bụi công nghiệp 80 lít Tahawa TH-803J</strong></span></a>&nbsp;cho Công ty Huynh Dat JSC. Việc giao nhận máy hút bụi công nghiệp này không chỉ đánh dấu một bước tiến quan trọng trong việc hợp tác giữa hai bên mà còn khẳng định chất lượng và uy tín của sản phẩm Tahawa trong lĩnh vực vệ sinh công nghiệp.</p>"
+   "desc": "<p>Vừa qua, <strong><a href=\"/\">Adzco</a></strong> đã vinh dự được lựa chọn là đối tác cung cấp <a href=\"/may-hut-bui-cong-nghiep-tahawa-th-803j/\"><span style=\"color:#2980b9;\"><strong>máy hút bụi công nghiệp 80 lít Adzco TH-803J</strong></span></a>&nbsp;cho Công ty Huynh Dat JSC. Việc giao nhận máy hút bụi công nghiệp này không chỉ đánh dấu một bước tiến quan trọng trong việc hợp tác giữa hai bên mà còn khẳng định chất lượng và uy tín của sản phẩm Adzco trong lĩnh vực vệ sinh công nghiệp.</p>"
   },
   {
-   "title": "Hành trình Tahawa giao máy hút bụi công nghiệp xí nghiệp Công ty thực phẩm GN tại Long An",
+   "title": "Hành trình Adzco giao máy hút bụi công nghiệp xí nghiệp Công ty thực phẩm GN tại Long An",
    "href": "/cong-ty-thuc-pham-gn-mua-may-hut-bui-cong-nghiep/",
    "img": "/assets/img/media/thumb/346x259/tp-gn.jpg",
    "date": "26/03/2024",
    "views": "1476 Lượt xem",
-   "desc": "<p><span style=\"font-size:16px;\">Tahawa Nhật Bản xin gửi lời cảm ơn&nbsp;chân thành tới công ty thực phẩm GN (văn phòng tại Bình Thạnh, xí nghiệp tại Long An)&nbsp;đã lựa chọn mẫu mãy hút bụi công nghiệp Tahawa 301D. Sự yêu mến và sự tin tưởng của quý khách hàng là niềm tự hào và động lực để&nbsp;Tahawa tiếp tục phát triển&nbsp;.</span></p>"
+   "desc": "<p><span style=\"font-size:16px;\">Adzco Nhật Bản xin gửi lời cảm ơn&nbsp;chân thành tới công ty thực phẩm GN (văn phòng tại Bình Thạnh, xí nghiệp tại Long An)&nbsp;đã lựa chọn mẫu mãy hút bụi công nghiệp Adzco 301D. Sự yêu mến và sự tin tưởng của quý khách hàng là niềm tự hào và động lực để&nbsp;Adzco tiếp tục phát triển&nbsp;.</span></p>"
   },
   {
-   "title": "Tahawa cảm ơn quý khách hàng Hyundai Bình Dương tin dùng robot lau kính",
+   "title": "Adzco cảm ơn quý khách hàng Hyundai Bình Dương tin dùng robot lau kính",
    "href": "/tahawa-cam-on-quy-doi-tac-hyundai-binh-duong-tin-dung-robot-lau-kinh-tahawa-cam-on-quy-doi-tac-hyundai-binh-duong-tin-dung-robot-lau-kinh/",
    "img": "/assets/img/media/thumb/346x259/artboard-1robot-lau-kinh-tahawa-nhat-ban-th09gl-huyndai.png",
    "date": "28/10/2021",
@@ -1508,12 +1508,12 @@ window.TAHAWA_DATA = {
    "desc": "<p>Nếu đang tìm một chiếc máy rửa xe phục vụ các công việc thường ngày, <strong>khoảng 90–120 bar</strong> là dải áp lực có thể đáp ứng phần lớn nhu cầu gia đình. Khoảng 90–100 bar phù hợp với các công việc nhẹ như rửa xe máy, xe đạp và vệ sinh cơ bản. Trong khi đó, mức 110–120 bar sẽ phù hợp hơn nếu gia đình thường xuyên rửa ô tô, làm sạch bánh xe nhiều bùn đất hoặc vệ sinh sân, tường và các khu vực ngoài trời.</p>"
   },
   {
-   "title": "Máy Chà Sàn Tahawa HC660 – Giải Pháp Vệ Sinh Sàn Diện Tích Lớn Hiệu Quả",
+   "title": "Máy Chà Sàn Adzco HC660 – Giải Pháp Vệ Sinh Sàn Diện Tích Lớn Hiệu Quả",
    "href": "/may-cha-san-tahawa-hc660-giai-phap-ve-sinh-san-dien-tich-lon/",
    "img": "/assets/img/media/thumb/346x259/c4cd4c04-ee54-48ed-b89a-152431331735.png",
    "date": "19/09/2026",
    "views": "58 Lượt xem",
-   "desc": "<p>Máy chà sàn Tahawa HC660 là dòng máy chà sàn ngồi lái được định hướng cho nhu cầu vệ sinh chuyên nghiệp tại các khu vực có diện tích lớn. Sản phẩm sở hữu công suất tổng 1.850W, hiệu suất làm việc công bố 4.200 m²/giờ, hai bình chứa 80L và 90L, nguồn điện 24V cùng thời gian hoạt động khoảng 4–5 giờ.</p>"
+   "desc": "<p>Máy chà sàn Adzco HC660 là dòng máy chà sàn ngồi lái được định hướng cho nhu cầu vệ sinh chuyên nghiệp tại các khu vực có diện tích lớn. Sản phẩm sở hữu công suất tổng 1.850W, hiệu suất làm việc công bố 4.200 m²/giờ, hai bình chứa 80L và 90L, nguồn điện 24V cùng thời gian hoạt động khoảng 4–5 giờ.</p>"
   },
   {
    "title": "Cách Dùng Máy Phun Rửa Áp Lực Cao Để Làm Sạch Hiệu Quả",
@@ -1564,12 +1564,12 @@ window.TAHAWA_DATA = {
    "desc": "<p><strong>Máy chà sàn đơn</strong> phù hợp hơn nếu nhà xưởng có nhiều góc nhỏ, nhiều máy móc và vật cản, lối đi hẹp, nhu cầu vệ sinh theo từng khu vực hoặc doanh nghiệp muốn tối ưu chi phí đầu tư ban đầu.&nbsp;<strong>Máy chà sàn liên hợp</strong> sẽ đáng lựa chọn nếu nhà xưởng có mặt bằng tương đối thoáng, cần vệ sinh thường xuyên, yêu cầu sàn khô nhanh và muốn giảm các công đoạn trong quá trình làm sạch.</p>"
   },
   {
-   "title": "Đánh Giá Máy Chà Sàn Liên Hợp TAHAWA HC 50B Chạy Ắc Quy Cho Siêu Thị, Bệnh Viện",
+   "title": "Đánh Giá Máy Chà Sàn Liên Hợp ADZCO HC 50B Chạy Ắc Quy Cho Siêu Thị, Bệnh Viện",
    "href": "/danh-gia-may-cha-san-lien-hop-tahawa-hc-50b/",
    "img": "/assets/img/media/thumb/346x259/111024-may-cha-san-lien-hop-tahawa-hc50b-7.png",
    "date": "07/09/2026",
    "views": "58 Lượt xem",
-   "desc": "<p>Nếu công việc vệ sinh của doanh nghiệp thường xuyên phải xử lý diện tích sàn lớn, việc đầu tư một chiếc máy chà sàn liên hợp có thể mang lại hiệu quả cao hơn đáng kể so với phương pháp vệ sinh thủ công.</p> <p>TAHAWA HC 50B nổi bật ở sự kết hợp giữa khả năng chà sàn, hút nước, vận hành bằng ắc quy và thời gian làm việc liên tục nhiều giờ. Đây là những yếu tố phù hợp với các công trình như bệnh viện, siêu thị, trung tâm thương mại, văn phòng, khách sạn và nhà xưởng.</p>"
+   "desc": "<p>Nếu công việc vệ sinh của doanh nghiệp thường xuyên phải xử lý diện tích sàn lớn, việc đầu tư một chiếc máy chà sàn liên hợp có thể mang lại hiệu quả cao hơn đáng kể so với phương pháp vệ sinh thủ công.</p> <p>ADZCO HC 50B nổi bật ở sự kết hợp giữa khả năng chà sàn, hút nước, vận hành bằng ắc quy và thời gian làm việc liên tục nhiều giờ. Đây là những yếu tố phù hợp với các công trình như bệnh viện, siêu thị, trung tâm thương mại, văn phòng, khách sạn và nhà xưởng.</p>"
   },
   {
    "title": "Máy chà sàn gạch men: Giải pháp làm sạch nền gạch nhanh chóng, hiệu quả",
@@ -1684,12 +1684,12 @@ window.TAHAWA_DATA = {
    "desc": "<p><a href=\"/may-rua-xe-phun-ap-luc-cao/\"><span style=\"color:#2980b9;\"><em><strong>Máy phun rửa áp lực cao</strong></em></span></a>&nbsp;là thiết bị hỗ trợ làm sạch rất hiệu quả, nhưng để dùng bền lâu thì người dùng cần bảo dưỡng đúng cách. Từ việc kiểm tra nguồn nước, vệ sinh bộ lọc, làm sạch đầu béc, kiểm tra dây phun, thay dầu bơm, xả áp sau khi tắt máy đến bảo quản ở nơi khô ráo, mỗi thao tác nhỏ đều góp phần kéo dài tuổi thọ thiết bị.</p>"
   },
   {
-   "title": "Máy hút bụi công nghiệp Tahawa có gì nổi bật so với dòng phổ thông?",
+   "title": "Máy hút bụi công nghiệp Adzco có gì nổi bật so với dòng phổ thông?",
    "href": "/may-hut-bui-cong-nghiep-tahawa-co-gi-noi-bat-so-voi-cac-dong-pho-thong/",
    "img": "/assets/img/media/thumb/346x259/may-hut-bui-cong-nghiep-tahawa-co-gi-noi-bat-so-voi-dong-pho-thong-3.png",
    "date": "18/06/2026",
    "views": "136 Lượt xem",
-   "desc": "<p>Đối với doanh nghiệp, công ty vệ sinh, khách sạn, bệnh viện hay nhà xưởng, việc đầu tư máy hút bụi công nghiệp TAHAWA không chỉ giúp nâng cao hiệu quả làm sạch mà còn góp phần tiết kiệm chi phí vận hành trong dài hạn.</p>"
+   "desc": "<p>Đối với doanh nghiệp, công ty vệ sinh, khách sạn, bệnh viện hay nhà xưởng, việc đầu tư máy hút bụi công nghiệp ADZCO không chỉ giúp nâng cao hiệu quả làm sạch mà còn góp phần tiết kiệm chi phí vận hành trong dài hạn.</p>"
   },
   {
    "title": "Kinh nghiệm chọn máy giặt thảm phù hợp cho công ty vệ sinh chuyên nghiệp",
@@ -1951,42 +1951,42 @@ window.TAHAWA_DATA = {
   {
    "name": "Diễn Viên Phi Phụng",
    "img": "/assets/img/media/thiet-ke-chua-co-ten-2.png",
-   "text": "Mình mua sản phẩm robot lau kính của Tahawa về để lau mấy tấm kính lớn trong nhà. Công nhận có con này tiện thật chứ, không phải bắc thang để lau, cũng không cần phải thuê người vệ sinh."
+   "text": "Mình mua sản phẩm robot lau kính của Adzco về để lau mấy tấm kính lớn trong nhà. Công nhận có con này tiện thật chứ, không phải bắc thang để lau, cũng không cần phải thuê người vệ sinh."
   },
   {
    "name": "Diễn Viên Thanh Hiền",
    "img": "/assets/img/media/thiet-ke-chua-co-ten-6.png",
-   "text": "Mình cũng có tuổi rồi, đau nhức người thường xuyên, chính vì thế mình mua sản phẩm gối massage của Tahawa, mỗi ngày sử dụng có 15 phút là thấy khỏe hẳn á"
+   "text": "Mình cũng có tuổi rồi, đau nhức người thường xuyên, chính vì thế mình mua sản phẩm gối massage của Adzco, mỗi ngày sử dụng có 15 phút là thấy khỏe hẳn á"
   },
   {
    "name": "NSƯT Mạnh Dung",
    "img": "/assets/img/media/thiet-ke-chua-co-ten-7.png",
-   "text": "Tôi được con cái mua tặng mấy sản phẩm của Tahawa, robot hút bụi, gối massage, máy lọc không khí, giờ cũng thấy khỏe hẳn ra, máy sử dụng tốt cũng như khá tiện dụng"
+   "text": "Tôi được con cái mua tặng mấy sản phẩm của Adzco, robot hút bụi, gối massage, máy lọc không khí, giờ cũng thấy khỏe hẳn ra, máy sử dụng tốt cũng như khá tiện dụng"
   },
   {
    "name": "Anh Thái - Quận 7",
    "img": "/assets/img/media/feedback14-th06plus.jpg",
-   "text": "Mình mua sản phẩm robot hút bụi lau nhà của Tahawa sử dụng rất tốt, tới giờ cũng gần 2 năm rồi mà không có vấn đề gì hết. Nó tự vẽ bản đồ, tự hút tự tự lau nhà cho mình luôn"
+   "text": "Mình mua sản phẩm robot hút bụi lau nhà của Adzco sử dụng rất tốt, tới giờ cũng gần 2 năm rồi mà không có vấn đề gì hết. Nó tự vẽ bản đồ, tự hút tự tự lau nhà cho mình luôn"
   },
   {
    "name": "Chị Dung - quận 10",
    "img": "/assets/img/media/feedback17-th06plus.jpg",
-   "text": "Nhờ có sản phẩm robot hút bụi của Tahawa, mình tiết kiệm được rất nhiều thời gian, nó hút bụi và lau nhà giúp mình rất sạch"
+   "text": "Nhờ có sản phẩm robot hút bụi của Adzco, mình tiết kiệm được rất nhiều thời gian, nó hút bụi và lau nhà giúp mình rất sạch"
   },
   {
    "name": "Cô Nga - Bình Chánh",
    "img": "/assets/img/media/feedback1-th06plus.jpg",
-   "text": "Con Mình mua cho mình sản phẩm robot hút bụi lau nhà của Tahawa, giờ rảnh hẳn. Máy sử dụng rất bền nữa, giờ hơn 2 năm rồi mà chưa có vấn đề gì"
+   "text": "Con Mình mua cho mình sản phẩm robot hút bụi lau nhà của Adzco, giờ rảnh hẳn. Máy sử dụng rất bền nữa, giờ hơn 2 năm rồi mà chưa có vấn đề gì"
   },
   {
    "name": "Anh Khoa - Bình Dương",
    "img": "/assets/img/media/110345-thiet-ke-chua-co-ten-3.png",
-   "text": "Nhà mình gần khu công nghiệp nên khá bụi bặm nên mình mua máy lọc không khí của Tahawa, máy sử dụng rất tốt, sau 6 tháng dùng mình thay màng lọc mới thấy nó hiệu quả tốt như thế nào."
+   "text": "Nhà mình gần khu công nghiệp nên khá bụi bặm nên mình mua máy lọc không khí của Adzco, máy sử dụng rất tốt, sau 6 tháng dùng mình thay màng lọc mới thấy nó hiệu quả tốt như thế nào."
   },
   {
    "name": "Chị Thanh - Bình Thạnh",
    "img": "/assets/img/media/110343-thiet-ke-chua-co-ten-4.png",
-   "text": "Mình có mua máy lọc không khí của Tahawa - máy sử dụng rất ổn định, lọc cũng rất tốt, lâu lâu thay màng lọc 1 lần mới thấy không khí nhà mình nó dơ như thế nào."
+   "text": "Mình có mua máy lọc không khí của Adzco - máy sử dụng rất ổn định, lọc cũng rất tốt, lâu lâu thay màng lọc 1 lần mới thấy không khí nhà mình nó dơ như thế nào."
   }
  ]
 };
