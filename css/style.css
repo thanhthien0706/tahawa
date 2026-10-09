@@ -373,10 +373,10 @@ strong, b { font-weight: 700; }
 }
 @media (min-width: 992px) { .label-discount { width: 40px; height: 40px; line-height: 42px; } }
 .btn-purchased {
-  position: absolute; bottom: 12px; left: 0; right: 0; margin: 0 auto;
-  width: max-content; white-space: nowrap; display: block;
+  position: absolute; bottom: 12px; left: 0; right: 0;
+  display: flex; justify-content: center; width: auto;
 }
-.product-buttons-group { display: flex; flex-direction: row; gap: 6px; padding: 0; margin-top: 10px; }
+.product-buttons-group { display: flex; flex-direction: row; gap: 6px; padding: 0; margin-top: 10px; min-width: 0; max-width: 100%; padding: 0 10px;}
 .btn-item {
   display: flex; align-items: center; justify-content: center; white-space: nowrap;
   padding: 6px 9px 6px 7px; border: none; border-radius: 25px !important;
@@ -387,6 +387,8 @@ strong, b { font-weight: 700; }
 }
 .btn-item:hover { opacity: .9; color: #fff; }
 .btn-item i { font-size: 73%; margin-right: 4px; flex-shrink: 0; }
+.product-buttons-group .btn-item { flex: 1 1 0%; min-width: 0; max-width: 100%; }
+.product-buttons-group .btn-item span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
 
 /* Product grid (style1) */
 .product-grid { display: flex; flex-wrap: wrap; margin: 0 -10px -20px; }
