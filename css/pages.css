@@ -277,15 +277,51 @@ html.lightbox-open { overflow: hidden; }
 
 /* ---------- Bài viết ---------- */
 .article-detail { margin-bottom: 30px; }
-.post-detail-title { margin: 0 0 10px; font-size: 170%; font-weight: 700; line-height: 1.25; }
-.post-infor { margin-bottom: 20px; }
-.post-infor > div { display: inline-block; position: relative; padding-right: 10px; vertical-align: top; }
-.post-infor > div + div { margin-left: 4px; }
-.post-infor > div + div::before { content: ""; position: absolute; top: 4px; left: -8px; width: 1px; height: 16px; background: #000; }
-.post-infor label { display: inline-block; margin-bottom: 5px; }
-.post-detail-rating .review { display: inline-block; font-size: 16px; }
-.decription { line-height: 26px; }
-.decription h2 { font-size: 135%; line-height: 26px; }
+.post-detail-title { margin: 0 0 14px; font-size: 28px; font-weight: 700; line-height: 1.3; color: var(--txt-color); }
+@media (max-width: 576px) { .post-detail-title { font-size: 22px; } }
+
+.post-infor { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 22px; }
+.post-infor > div {
+  display: flex; align-items: center; gap: 6px; padding: 6px 14px; border-radius: 20px;
+  background: #f1f4f6; color: #5a6570; font-size: 13px; font-weight: 600;
+}
+.post-infor label { display: inline-flex; align-items: center; gap: 6px; margin: 0; }
+.post-infor i { color: var(--primary-color); }
+.post-detail-rating .review { display: inline-flex; font-size: 13px; }
+
+/* Ảnh đại diện bài viết */
+.post-hero { margin: 0 0 24px; border-radius: 16px; overflow: hidden; }
+.post-hero img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 7; object-fit: cover; }
+@media (max-width: 576px) { .post-hero img { aspect-ratio: 4 / 3; } }
+
+.decription { line-height: 1.8; font-size: 16px; color: #495057; }
+.decription > p:first-of-type { font-size: 17px; color: var(--txt-color); }
+.decription h2 {
+  position: relative; margin: 36px 0 16px; padding-left: 16px; font-size: 22px; font-weight: 700;
+  line-height: 1.35; color: var(--txt-color);
+}
+.decription h2::before { content: ""; position: absolute; left: 0; top: 4px; bottom: 4px; width: 4px; border-radius: 2px; background: var(--primary-color); }
+.decription h3 { margin: 22px 0 10px; font-size: 18px; font-weight: 700; color: var(--txt-color); }
+.decription img { border-radius: 14px; }
+.decription hr { display: none; }
+
+/* Mục lục */
+#toc { margin: 0 0 24px; padding: 18px 20px; background: #f8fafb; border: 1px solid #eef1f3; border-radius: 14px; }
+#toc-title { padding-bottom: 8px; font-size: 15px; font-weight: 700; color: var(--txt-color); }
+#toc-title a { color: var(--primary-color); font-weight: 600; }
+#toc-list { margin: 0; padding: 0 0 0 18px; list-style: disc; font-size: 14px; }
+#toc-list ul { margin: 4px 0; padding-left: 20px; list-style: circle; }
+#toc-list a { color: #5a6570; transition: color .15s ease; }
+#toc-list a:hover { color: var(--primary-color); }
+
+/* Khối kêu gọi hành động cuối bài */
+.post-cta {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px;
+  margin-top: 28px; padding: 22px 24px; background: var(--primary-sub-color); border-radius: 16px;
+}
+.post-cta p { margin: 0; font-size: 15px; font-weight: 600; color: var(--txt-color); }
+.post-cta a.btn-send { flex: 0 0 auto; padding: 10px 24px; }
+
 .related-posts .post-item .read-more { margin-top: 10px; }
 .related-posts .post-item .read-more a { color: #000; }
 .post-item .read-more a:hover { text-decoration: underline; }
@@ -440,6 +476,50 @@ html.lightbox-open { overflow: hidden; }
 }
 .about-categories__item i { font-size: 24px; color: var(--primary-color); }
 .about-categories__item:hover { border-color: var(--primary-color); box-shadow: 0 10px 20px rgba(19, 155, 206, .15); transform: translateY(-3px); }
+
+/* ---------- Trang chính sách ---------- */
+.policy-page { font-size: 16px; line-height: 1.8; color: #495057; }
+.policy-page > p:first-of-type { font-size: 17px; color: var(--txt-color); }
+.policy-page h2 {
+  margin: 0 0 20px; padding-bottom: 14px; border-bottom: 2px solid #eef1f3;
+  font-size: 22px; font-weight: 700; line-height: 1.35; color: var(--txt-color);
+}
+.policy-page h2 + h2 { margin-top: -12px; padding-top: 0; border-top: 0; }
+.policy-page h3 {
+  display: flex; align-items: center; gap: 10px;
+  margin: 32px 0 14px; font-size: 18px; font-weight: 700; line-height: 1.35; color: var(--txt-color);
+}
+.policy-page h3::before {
+  content: "\f058"; font-family: "Font Awesome 5 Free"; font-weight: 900; flex: 0 0 auto;
+  color: var(--primary-color); font-size: 20px;
+}
+.policy-page h4 { margin: 18px 0 8px; font-size: 16px; font-weight: 700; color: var(--txt-color); }
+.policy-page ul { margin: 0 0 18px; padding: 0; list-style: none; }
+.policy-page ul li { position: relative; margin-bottom: 10px; padding-left: 26px; }
+.policy-page ul li::before {
+  content: "\f00c"; font-family: "Font Awesome 5 Free"; font-weight: 900;
+  position: absolute; left: 0; top: 2px; color: var(--primary-color); font-size: 13px;
+}
+.policy-page__cta {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px;
+  margin-top: 32px; padding: 22px 24px; background: var(--primary-sub-color); border-radius: 16px;
+}
+.policy-page__cta p { margin: 0; font-size: 15px; font-weight: 600; color: var(--txt-color); }
+.policy-page__cta a.btn-send { flex: 0 0 auto; padding: 10px 24px; }
+
+/* Trang chính sách - hub */
+.policy-hub__lead { margin: 0 0 24px; font-size: 16px; color: #495057; }
+.policy-hub__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.policy-hub__item {
+  display: flex; align-items: center; gap: 14px; padding: 20px; background: #fff;
+  border: 1px solid #eef1f3; border-radius: 14px; color: var(--txt-color) !important; transition: all .2s ease;
+}
+.policy-hub__item:hover { border-color: var(--primary-color); box-shadow: 0 10px 20px rgba(19, 155, 206, .12); transform: translateY(-3px); }
+.policy-hub__icon {
+  display: flex; align-items: center; justify-content: center; flex: 0 0 auto;
+  width: 46px; height: 46px; border-radius: 12px; background: var(--primary-sub-color); color: var(--primary-color); font-size: 19px;
+}
+.policy-hub__item span { font-size: 15px; font-weight: 600; line-height: 1.4; }
 
 /* ---------- Liên hệ ---------- */
 .map-container { margin-bottom: 30px; }

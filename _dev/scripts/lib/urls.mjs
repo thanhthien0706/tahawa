@@ -6,9 +6,7 @@
 export const ORIGIN = 'https://tahawa.com.vn';
 const HOST_RE = /^(www\.)?tahawa\.(com\.)?vn$/i;
 const IMG_RE = /\.(png|jpe?g|gif|webp|svg|bmp|ico)$/i;
-// Xung đột slug: /chinh-sach-cua-tahawa.html (trang, menu trỏ tới) và danh mục /chinh-sach-cua-tahawa/
-// -> trang giữ /chinh-sach-cua-tahawa/, danh mục chuyển sang /chinh-sach-cua-tahawa/tat-ca/
-export const PATH_OVERRIDES = { '/chinh-sach-cua-tahawa/': '/chinh-sach-cua-tahawa/tat-ca/' };
+export const PATH_OVERRIDES = {};
 
 export function localPath(href, base = ORIGIN + '/') {
   if (!href) return href;

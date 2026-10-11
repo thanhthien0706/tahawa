@@ -67,12 +67,12 @@ strong, b { font-weight: 700; }
   font-size: 90%;
   line-height: 1.6;
 }
-.topbar__inner { display: flex; align-items: center; }
-.topbar__phones li { display: inline-block; position: relative; }
-.topbar .phone-label { padding-right: 10px; }
-.topbar a { color: #000; padding-right: 10px; line-height: 26px; }
-.topbar a:hover { color: var(--header-txt-color-hover) !important; }
-.topbar__right { margin-left: auto; text-align: right; display: flex; align-items: center; }
+.topbar__inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.topbar__left, .topbar__right { min-width: 0; }
+.topbar__text { display: block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; color: #fff; }
+.topbar__left .topbar__text { font-weight: 600; }
+.topbar__right { text-align: right; }
+.topbar__slogan { font-style: italic; font-weight: 500; }
 .social-header { display: inline-block; position: relative; }
 .social-header a { padding-right: 10px; }
 .social-header img { width: 24px; height: auto; }
@@ -647,9 +647,9 @@ strong, b { font-weight: 700; }
 @media (max-width: 991px) {
   .topbar { text-align: center; }
   .topbar__inner { display: block; }
-  .topbar__left, .topbar__right { display: inline-block; }
+  .topbar__left, .topbar__right { display: inline-block; max-width: 100%; }
+  .topbar__right { text-align: center; }
   .topbar .user-header { display: none; }
-  .topbar .social-header a { padding: 0 10px; }
 
   .header-desktop { display: none; }
   .header-mobile { display: block; }

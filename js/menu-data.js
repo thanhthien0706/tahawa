@@ -13,46 +13,46 @@ window.TAHAWA_MENU = {
   },
   {
    "t": "TIN TỨC",
-   "href": "https://tahawa.com.vn/tin-tuc-tahawa/",
+   "href": "https://tahawa.com.vn/tin-tuc/",
    "sub": []
   },
   {
    "t": "CHÍNH SÁCH",
-   "href": "https://tahawa.com.vn/chinh-sach-cua-tahawa.html",
+   "href": "https://tahawa.com.vn/chinh-sach.html",
    "sub": [
     {
      "t": "CHÍNH SÁCH TRẢ GÓP ADZCO",
-     "href": "https://tahawa.com.vn/chinh-sach-tra-gop-tahawa.html"
+     "href": "https://tahawa.com.vn/chinh-sach-tra-gop.html"
     },
     {
      "t": "CHÍNH SÁCH BÁN HÀNG CỦA ADZCO",
-     "href": "https://tahawa.com.vn/chinh-sach-ban-hang-cua-tahawa.html"
+     "href": "https://tahawa.com.vn/chinh-sach-ban-hang.html"
     },
     {
      "t": "CHÍNH SÁCH BẢO HÀNH CỦA ADZCO",
-     "href": "https://tahawa.com.vn/chinh-sach-bao-hanh-cua-tahawa.html"
+     "href": "https://tahawa.com.vn/chinh-sach-bao-hanh.html"
     },
     {
      "t": "CHÍNH SÁCH VẬN CHUYỂN - GIAO NHẬN CỦA ADZCO",
-     "href": "https://tahawa.com.vn/chinh-sach-van-chuyen-giao-nhan-cua-tahawa.html"
+     "href": "https://tahawa.com.vn/chinh-sach-van-chuyen-giao-nhan.html"
     },
     {
      "t": "CHÍNH SÁCH ĐỔI TRẢ CỦA ADZCO",
-     "href": "https://tahawa.com.vn/chinh-sach-doi-tra-cua-tahawa.html"
+     "href": "https://tahawa.com.vn/chinh-sach-doi-tra.html"
     },
     {
      "t": "CHÍNH SÁCH THANH TOÁN CỦA ADZCO",
-     "href": "https://tahawa.com.vn/chinh-sach-thanh-toan-cua-tahawa.html"
+     "href": "https://tahawa.com.vn/chinh-sach-thanh-toan.html"
     },
     {
      "t": "BẢO MẬT THÔNG TIN KHÁCH HÀNG CỦA ADZCO",
-     "href": "https://tahawa.com.vn/chinh-sach-bao-mat-thong-tin-khach-hang-cua-tahawa.html"
+     "href": "https://tahawa.com.vn/chinh-sach-bao-mat-thong-tin-khach-hang.html"
     }
    ]
   },
   {
    "t": "HỢP TÁC ĐẠI LÝ",
-   "href": "https://tahawa.com.vn/chinh-sach-dai-ly-tahawa.html",
+   "href": "https://tahawa.com.vn/chinh-sach-dai-ly.html",
    "sub": []
   }
  ],

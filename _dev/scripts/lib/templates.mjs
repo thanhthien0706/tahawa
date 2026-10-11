@@ -217,7 +217,7 @@ function productPage(ctx, p, d) {
   const buttons = d.orderButtons.map((b) => {
     if (/lienhe/.test(b.cls)) return `<div class="order-col order-col--full"><a href="/lien-he/" class="btn-order btn-buy"><i class="fa fa-phone-alt"></i> ${esc(b.text)}</a></div>`;
     if (/add_to_cart/.test(b.cls)) return `<div class="order-col"><button type="button" class="btn-order btn-addcart add_to_cart"><i class="fas fa-cart-plus"></i> ${esc(b.text)}</button></div>`;
-    return `<div class="order-col"><button type="button" class="btn-order btn-buy buy_now"><i class="fa fa-shopping-basket"></i> ${esc(b.text)}</button></div>`;
+    return `<div class="order-col"><button type="button" class="btn-order btn-buy buy_now"><i class="fa fa-shopping-bag"></i> ${esc(b.text)}</button></div>`;
   }).join('');
   const tabs = d.tabs.length ? `<div class="detail-tabs">
     <ul class="tab-list">${d.tabs.map((t, i) => `<li><a href="#${esc(t.id)}" class="tab-item${i ? '' : ' active'}" data-tab="${esc(t.id)}"> ${esc(t.title)} </a></li>`).join('')}</ul>
