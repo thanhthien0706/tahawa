@@ -71,13 +71,18 @@
 
   /* ---------------- Render sections ---------------- */
   function renderSections() {
-    $('[data-hero]').innerHTML = D.hero.map(function (h) {
+    var heroEl = $('[data-hero]');
+    if (heroEl) heroEl.innerHTML = D.hero.map(function (h) {
       var pic = picture(h.lg, h.sm, 'Adzco - Thiết Bị Công Nghiệp Nhật Bản Chính Hãng');
       return '<div class="hero-item">' + (h.href ? '<a href="' + link(h.href) + '">' + pic + '</a>' : pic) + '</div>';
     }).join('');
 
-    $('[data-cats]').innerHTML = D.cats.map(function (c) {
-      return '<div class="cat-item"><a href="' + link(c.href) + '">' + picture(c.lg, c.sm) + '</a></div>';
+    var catsEl = $('[data-cats]');
+    if (catsEl) catsEl.innerHTML = D.cats.map(function (c) {
+      return '<div class="cat-item"><a href="' + link(c.href) + '">' +
+        '<span class="cat-item__thumb">' + picture(c.lg, c.sm, c.name) + '</span>' +
+        (c.name ? '<span class="cat-item__label">' + esc(c.name) + '</span>' : '') +
+        '</a></div>';
     }).join('');
 
     $$('[data-banners]').forEach(function (box) {
@@ -102,7 +107,8 @@
       }).join('');
     });
 
-    $('[data-partners]').innerHTML = D.partners.map(function (p) {
+    var partnersEl = $('[data-partners]');
+    if (partnersEl) partnersEl.innerHTML = D.partners.map(function (p) {
       return '<a class="partner-item" href="' + link(p.href) + '" target="_blank" rel="nofollow noopener"><img src="' + esc(p.img) + '" alt="' + esc(p.alt) + '" draggable="false"></a>';
     }).join('');
 
@@ -110,10 +116,13 @@
       box.innerHTML = D[box.dataset.posts].map(postCard).join('');
     });
 
-    $('[data-videos]').innerHTML = D.videos.map(function (id) { return liteYT(id, 'hqdefault'); }).join('');
-    $('[data-video-single]').innerHTML = liteYT(D.video2, 'mqdefault');
+    var videosEl = $('[data-videos]');
+    if (videosEl) videosEl.innerHTML = D.videos.map(function (id) { return liteYT(id, 'hqdefault'); }).join('');
+    var videoSingleEl = $('[data-video-single]');
+    if (videoSingleEl && D.video2) videoSingleEl.innerHTML = liteYT(D.video2, 'mqdefault');
 
-    $('[data-testimonials]').innerHTML = D.testimonials.map(function (t) {
+    var testimonialsEl = $('[data-testimonials]');
+    if (testimonialsEl) testimonialsEl.innerHTML = D.testimonials.map(function (t) {
       return '<div class="client-item">' +
         '<img src="' + esc(t.img) + '" alt="' + esc(t.name) + '" draggable="false">' +
         '<div class="author-info"><strong><a href="#">' + esc(t.name) + '</a> </strong></div>' +

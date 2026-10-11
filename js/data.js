@@ -2,107 +2,96 @@
 window.TAHAWA_DATA = {
  "hero": [
   {
-   "href": "/may-hut-bui-cong-nghiep/",
-   "lg": "/assets/img/media/thumb/1900x700/103926-may-hut-bui-cong-nghiep-1.jpg",
-   "sm": "/assets/img/media/thumb/950x350/103926-may-hut-bui-cong-nghiep-1.jpg",
-   "img": "/assets/img/media/thumb/1900x700/103926-may-hut-bui-cong-nghiep-1.jpg"
-  },
-  {
-   "href": "/may-cha-san/",
-   "lg": "/assets/img/media/thumb/1900x700/may-hut-bui-cong-nghiep-2.jpg",
-   "sm": "/assets/img/media/thumb/950x350/may-hut-bui-cong-nghiep-2.jpg",
-   "img": "/assets/img/media/thumb/1900x700/may-hut-bui-cong-nghiep-2.jpg"
-  },
-  {
-   "href": "/may-rua-xe-phun-ap-luc-cao/",
-   "lg": "/assets/img/media/thumb/1900x700/may-hut-bui-cong-nghiep-3.jpg",
-   "sm": "/assets/img/media/thumb/950x350/may-hut-bui-cong-nghiep-3.jpg",
-   "img": "/assets/img/media/thumb/1900x700/may-hut-bui-cong-nghiep-3.jpg"
-  },
-  {
    "href": null,
    "lg": "/assets/img/media/thumb/1900x700/may-hut-bui-cong-nghiep-4.jpg",
    "sm": "/assets/img/media/thumb/950x350/may-hut-bui-cong-nghiep-4.jpg",
    "img": "/assets/img/media/thumb/1900x700/may-hut-bui-cong-nghiep-4.jpg"
   },
   {
-   "href": "/san-pham-cong-nghiep/may-han-tahawa/",
+   "href": "/may-han/",
    "lg": "/assets/img/media/thumb/1900x700/may-hut-bui-cong-nghiep-6.jpg",
    "sm": "/assets/img/media/thumb/950x350/may-hut-bui-cong-nghiep-6.jpg",
    "img": "/assets/img/media/thumb/1900x700/may-hut-bui-cong-nghiep-6.jpg"
-  },
-  {
-   "href": null,
-   "lg": "/assets/img/media/thumb/1900x700/thuong-hieu.jpg",
-   "sm": "/assets/img/media/thumb/950x350/thuong-hieu.jpg",
-   "img": "/assets/img/media/thumb/1900x700/thuong-hieu.jpg"
   }
  ],
  "cats": [
   {
-   "href": "/may-hut-bui-cong-nghiep/",
-   "lg": "/assets/img/media/thumb/600x600/162841-1.jpg",
-   "sm": "/assets/img/media/thumb/300x300/162841-1.jpg"
+   "href": "/bon-nuoc/",
+   "name": "Bồn Nước",
+   "lg": "https://tahawa-img.vercel.app/images/2631.jpg",
+   "sm": "https://tahawa-img.vercel.app/images/2631.jpg"
   },
   {
-   "href": "/may-cha-san/",
-   "lg": "/assets/img/media/thumb/600x600/162841-3.jpg",
-   "sm": "/assets/img/media/thumb/300x300/162841-3.jpg"
+   "href": "/may-nuoc-nong-mat-troi/",
+   "name": "Máy Nước Nóng Mặt Trời",
+   "lg": "https://tahawa-img.vercel.app/images/2600.jpg",
+   "sm": "https://tahawa-img.vercel.app/images/2600.jpg"
   },
   {
-   "href": "/may-say-tham/",
-   "lg": "/assets/img/media/thumb/600x600/162844-6.jpg",
-   "sm": "/assets/img/media/thumb/300x300/162844-6.jpg"
+   "href": "/dong-co-motor-dien/",
+   "name": "Động Cơ Motor Điện",
+   "lg": "https://tahawa-img.vercel.app/images/7956.jpg",
+   "sm": "https://tahawa-img.vercel.app/images/7956.jpg"
   },
   {
-   "href": "/may-rua-xe-phun-ap-luc-cao/",
-   "lg": "/assets/img/media/thumb/600x600/162841-4.jpg",
-   "sm": "/assets/img/media/thumb/300x300/162841-4.jpg"
+   "href": "/phu-kien-dien-nuoc/",
+   "name": "Phụ Kiện Điện Nước",
+   "lg": "https://tahawa-img.vercel.app/images/2457.jpg",
+   "sm": "https://tahawa-img.vercel.app/images/2457.jpg"
   },
   {
-   "href": "/may-xoa-tuong/",
-   "lg": "/assets/img/media/thumb/600x600/162844-7.jpg",
-   "sm": "/assets/img/media/thumb/300x300/162844-7.jpg"
+   "href": "/may-thoi-khi/",
+   "name": "Máy Thổi Khí",
+   "lg": "https://tahawa-img.vercel.app/images/7318.jpg",
+   "sm": "https://tahawa-img.vercel.app/images/7318.jpg"
   },
   {
-   "href": "/san-pham-cong-nghiep/may-han-tahawa/",
-   "lg": "/assets/img/media/thumb/600x600/162841-2.jpg",
-   "sm": "/assets/img/media/thumb/300x300/162841-2.jpg"
+   "href": "/san-pham-cong-nghiep/",
+   "name": "Sản Phẩm Công Nghiệp",
+   "lg": "https://tahawa-img.vercel.app/images/8388.jpg",
+   "sm": "https://tahawa-img.vercel.app/images/8388.jpg"
   },
   {
    "href": "/san-pham-cong-nghiep/thiet-bi-bep-cong-nghiep/",
+   "name": "Thiết Bị Bếp Công Nghiệp",
    "lg": "/assets/img/media/thumb/600x600/162844-5.jpg",
    "sm": "/assets/img/media/thumb/300x300/162844-5.jpg"
   },
   {
-   "href": "/xe-day-hang/",
-   "lg": "/assets/img/media/thumb/600x600/may-hut-bui-cong-nghiep.jpg",
-   "sm": "/assets/img/media/thumb/300x300/may-hut-bui-cong-nghiep.jpg"
+   "href": "/may-nuoc-nong-truc-tiep-gian-tiep/",
+   "name": "Máy Nước Nóng Trực Tiếp - Gián Tiếp",
+   "lg": "https://tahawa-img.vercel.app/images/1980.jpg",
+   "sm": "https://tahawa-img.vercel.app/images/1980.jpg"
   },
   {
-   "href": "/san-pham-cong-nghiep/thiet-bi-nang-ha/",
-   "lg": "/assets/img/media/thumb/600x600/may-hut-bui-cong-nghiep-1.jpg",
-   "sm": "/assets/img/media/thumb/300x300/may-hut-bui-cong-nghiep-1.jpg"
+   "href": "/bon-tu-hoai/",
+   "name": "Bồn Tự Hoại",
+   "lg": "https://tahawa-img.vercel.app/images/997.jpg",
+   "sm": "https://tahawa-img.vercel.app/images/997.jpg"
   },
   {
    "href": "/do-gia-dung/may-bom/",
+   "name": "Máy Bơm Nước",
    "lg": "/assets/img/media/thumb/600x600/11.png",
    "sm": "/assets/img/media/thumb/300x300/11.png"
   },
   {
-   "href": "/do-gia-dung/may-cat-co-tahawa-nhat-ban-bao-hanh-2-nam/",
-   "lg": "/assets/img/media/thumb/600x600/135801-10.png",
-   "sm": "/assets/img/media/thumb/300x300/135801-10.png"
+   "href": "/chau-rua-chen-bat/",
+   "name": "Chậu Rửa Chén Bát",
+   "lg": "https://tahawa-img.vercel.app/images/1822.jpg",
+   "sm": "https://tahawa-img.vercel.app/images/1822.jpg"
   },
   {
-   "href": "/robot-lau-kinh-nhat-ban/",
-   "lg": "/assets/img/media/thumb/600x600/162846-11.jpg",
-   "sm": "/assets/img/media/thumb/300x300/162846-11.jpg"
+   "href": "/may-han/",
+   "name": "Máy Hàn",
+   "lg": "https://tahawa-img.vercel.app/images/8018.jpg",
+   "sm": "https://tahawa-img.vercel.app/images/8018.jpg"
   },
   {
-   "href": "/robot-hut-bui-tahawa/",
-   "lg": "/assets/img/media/thumb/600x600/162845-10.jpg",
-   "sm": "/assets/img/media/thumb/300x300/162845-10.jpg"
+   "href": "/may-loc-nuoc/",
+   "name": "Máy Lọc Nước",
+   "lg": "https://tahawa-img.vercel.app/images/2765.jpg",
+   "sm": "https://tahawa-img.vercel.app/images/2765.jpg"
   }
  ],
  "banners": {
@@ -114,47 +103,6 @@ window.TAHAWA_DATA = {
    },
    {
     "img": "/assets/img/media/z3562878989881-91a31ce0c7391a0f8f4d901508aa04bf.jpg",
-    "href": null,
-    "target": null
-   }
-  ],
-  "184": [
-   {
-    "img": "/assets/img/media/thuong-hieu-1.jpg",
-    "href": "/gioi-thieu/",
-    "target": "_blank"
-   }
-  ],
-  "201": [
-   {
-    "img": "/assets/img/media/thiet-ke-chua-co-ten-15.png",
-    "href": null,
-    "target": null
-   },
-   {
-    "img": "/assets/img/media/robot-hut-nhat-ban-cao-cap.png",
-    "href": null,
-    "target": null
-   },
-   {
-    "img": "/assets/img/media/robot-hut-nhat-ban-cao-cap-1.jpg",
-    "href": null,
-    "target": null
-   }
-  ],
-  "205": [
-   {
-    "img": "/assets/img/media/top-30-1.jpg",
-    "href": null,
-    "target": null
-   },
-   {
-    "img": "/assets/img/media/robot-hut-nhat-ban-cao-cap.png",
-    "href": null,
-    "target": null
-   },
-   {
-    "img": "/assets/img/media/robot-hut-nhat-ban-cao-cap-1.jpg",
     "href": null,
     "target": null
    }
@@ -1448,14 +1396,6 @@ window.TAHAWA_DATA = {
    "date": "26/03/2024",
    "views": "1476 Lượt xem",
    "desc": "<p><span style=\"font-size:16px;\">Adzco Nhật Bản xin gửi lời cảm ơn&nbsp;chân thành tới công ty thực phẩm GN (văn phòng tại Bình Thạnh, xí nghiệp tại Long An)&nbsp;đã lựa chọn mẫu mãy hút bụi công nghiệp Adzco 301D. Sự yêu mến và sự tin tưởng của quý khách hàng là niềm tự hào và động lực để&nbsp;Adzco tiếp tục phát triển&nbsp;.</span></p>"
-  },
-  {
-   "title": "Adzco cảm ơn quý khách hàng Hyundai Bình Dương tin dùng robot lau kính",
-   "href": "/tahawa-cam-on-quy-doi-tac-hyundai-binh-duong-tin-dung-robot-lau-kinh-tahawa-cam-on-quy-doi-tac-hyundai-binh-duong-tin-dung-robot-lau-kinh/",
-   "img": "/assets/img/media/thumb/346x259/artboard-1robot-lau-kinh-tahawa-nhat-ban-th09gl-huyndai.png",
-   "date": "28/10/2021",
-   "views": "2458 Lượt xem",
-   "desc": "<p style=\"text-align: justify;\"><span style=\"color:#000000;\">Các tòa nhà, công ty thường hay sử dụng kính để làm vách ngăn. Vì kính sẽ giúp làm sáng và khiến không gian trở nên hiện đại hơn. Bởi thế, quý khách hàng Hyundai Bình Dương đã chọn lựa dòng sản phẩm robot lau kính tiện ích và an toàn này.</span></p>"
   }
  ],
  "news": [
@@ -1470,7 +1410,7 @@ window.TAHAWA_DATA = {
   {
    "title": "Kinh nghiệm mua máy rửa xe cao áp: Cách chọn máy phù hợp, bền và hiệu quả",
    "href": "/kinh-nghiem-mua-may-rua-xe-cao-ap/",
-   "img": "/assets/img/media/thumb/346x259/094615-may-phun-ap-luc-tahawa-s180-6-6.jpg",
+   "img": "/assets/img/media/thumb/346x259/may-rua-xe-cao-ap-dung-de-lam-gi-va-cach-chon-dung-1.png",
    "date": "05/10/2026",
    "views": "24 Lượt xem",
    "desc": "<p>Nắm được <strong>kinh nghiệm mua máy rửa xe cao áp</strong> sẽ giúp người dùng tránh tình trạng chọn máy theo cảm tính hoặc chỉ dựa vào giá bán. Trước khi mua, cần xác định rõ mục đích sử dụng, tần suất làm việc và loại phương tiện cần vệ sinh. Bên cạnh áp lực nước, hãy xem xét đồng thời công suất động cơ, lưu lượng nước, chất lượng đầu bơm, loại mô tơ, phụ kiện và thiết kế tổng thể.</p>"
@@ -1502,7 +1442,7 @@ window.TAHAWA_DATA = {
   {
    "title": "Máy rửa xe gia đình bao nhiêu bar là đủ? Kinh nghiệm chọn máy rửa xe áp lực phù hợp",
    "href": "/may-rua-xe-gia-dinh-bao-nhieu-bar-la-du/",
-   "img": "/assets/img/media/thumb/346x259/may-rua-xe-ap-luc-cao-tahawa-s26-4.png",
+   "img": "/assets/img/media/thumb/346x259/may-rua-xe-gia-dinh-khong-len-ap.png",
    "date": "01/10/2026",
    "views": "30 Lượt xem",
    "desc": "<p>Nếu đang tìm một chiếc máy rửa xe phục vụ các công việc thường ngày, <strong>khoảng 90–120 bar</strong> là dải áp lực có thể đáp ứng phần lớn nhu cầu gia đình. Khoảng 90–100 bar phù hợp với các công việc nhẹ như rửa xe máy, xe đạp và vệ sinh cơ bản. Trong khi đó, mức 110–120 bar sẽ phù hợp hơn nếu gia đình thường xuyên rửa ô tô, làm sạch bánh xe nhiều bùn đất hoặc vệ sinh sân, tường và các khu vực ngoài trời.</p>"
@@ -1940,13 +1880,8 @@ window.TAHAWA_DATA = {
    "desc": "<p>Xưởng sản xuất, nhà kho rộng lớn hay các gara ô tô luôn là những môi trường làm việc đặc thù, nơi bụi bẩn, chất thải và các loại vụn rác công nghiệp liên tục phát sinh với khối lượng lớn. Từ bụi mịn, mạt kim loại, mùn cưa đến dầu mỡ, hóa chất hay chất lỏng tràn vãi, tất cả đều đòi hỏi một giải pháp làm sạch chuyên biệt, mạnh mẽ và hiệu quả hơn hẳn so với những chiếc máy hút bụi gia đình thông thường. Lúc này, máy hút bụi công nghiệp chính là trợ thủ đắc lực không thể thiếu.</p>"
   }
  ],
- "videos": [
-  "CeghyV4oLqw",
-  "XaodQYKBst8",
-  "ghYyGqeRAH8",
-  "Y9VJGZM-8sA"
- ],
- "video2": "xFRo2CM7EVM",
+ "videos": [],
+ "video2": null,
  "testimonials": [
   {
    "name": "Diễn Viên Phi Phụng",

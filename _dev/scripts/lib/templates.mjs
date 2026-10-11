@@ -58,7 +58,7 @@ export function layout(ctx, o) {
 ${m.keywords ? `  <meta name="keywords" content="${esc(m.keywords)}">\n` : ''}  <meta property="og:title" content="${esc(title)}">
   <meta property="og:description" content="${esc(m.description || title)}">
 ${m.ogImage ? `  <meta property="og:image" content="${esc(m.ogImage)}">\n` : ''}  <link rel="canonical" href="${esc(o.path)}">
-  <link rel="icon" href="/assets/img/media/logo-tahawa-den.png">
+  <link rel="icon" href="/assets/img/media/logo-adzco-den.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="/css/style.css?v=${V}">
   <link rel="stylesheet" href="/css/pages.css?v=${V}">
@@ -202,7 +202,7 @@ const withSidebar = (ctx, mainHtml, mainCls = '') => `<div class="page-content">
    Pages
    ========================================================= */
 function productPage(ctx, p, d) {
-  const gallery = d.gallery.length ? d.gallery : [{ img: '/assets/img/media/logo-tahawa-den.png', full: '/assets/img/media/logo-tahawa-den.png' }];
+  const gallery = d.gallery.length ? d.gallery : [{ img: '/assets/img/media/logo-adzco-den.png', full: '/assets/img/media/logo-adzco-den.png' }];
   const main = gallery.map((g, i) => `<a class="img-main-href" href="${esc(g.full || g.img)}" data-index="${i}"${i ? ' hidden' : ''}><img class="img-main-detail" src="${esc(g.img)}" alt="${esc(d.name)}"${i ? ' loading="lazy"' : ''}><i class="fa fa-expand"></i></a>`).join('');
   const thumbs = d.thumbs.length > 1
     ? `<div class="pd-thumbs-wrap"><div class="carousel carousel--d pd-thumbs" data-items="4,4,4,4" data-margin="15" data-nav="true">${d.thumbs.map((t, i) => `<div class="pd-thumb${i ? '' : ' is-current'}" data-index="${i}"><a style="background-image:url(${esc(t)})"><img src="${esc(t)}" alt="" loading="lazy" draggable="false"></a></div>`).join('')}</div></div>`
@@ -252,7 +252,11 @@ function productPage(ctx, p, d) {
 
 function pagination(d) {
   if (!d.pagination || !d.pagination.length) return '';
-  return `<div class="pagination-page"><p class="pagination-summary">${esc(d.summary)}</p><div class="pagination"><ul>${d.pagination.map((pg) => `<li${pg.current ? ' class="current"' : ''}><a href="${href(pg.href)}">${pg.icon ? `<i class="${esc(pg.icon)}"></i>` : esc(pg.text)}</a></li>`).join('')}</ul></div></div>`;
+  const lis = d.pagination.map((pg) => {
+    if (pg.ellipsis) return '<li class="ellipsis"><span>…</span></li>';
+    return `<li${pg.current ? ' class="current"' : ''}><a href="${href(pg.href)}">${pg.icon ? `<i class="${esc(pg.icon)}"></i>` : esc(pg.text)}</a></li>`;
+  }).join('');
+  return `<div class="pagination-page"><p class="pagination-summary">${esc(d.summary)}</p><div class="pagination"><ul>${lis}</ul></div></div>`;
 }
 
 function categoryProductPage(ctx, p, d) {
@@ -273,22 +277,13 @@ function categoryProductPage(ctx, p, d) {
   return layout(ctx, { path: p, bodyClass: 'category_product', meta: d.meta, breadcrumbs: d.breadcrumbs, main, scripts: ['/js/pages.js'] });
 }
 
-function nextListPage(ctx, p) {
-  const m = p.match(/^(.*?)(?:-trang-(\d+))?\/$/);
-  const base = m[1];
-  const n = m[2] ? Number(m[2]) + 1 : 2;
-  const next = `${base}-trang-${n}/`;
-  return ctx.pages[next] ? next : '';
-}
-
 function categoryPostPage(ctx, p, d) {
   const items = d.posts.map((ps) => `<div class="post-col">${postCard(ps)}</div>`).join('');
-  const next = d.infinite ? nextListPage(ctx, p) : '';
   const html = `<div class="post-view">
     <h1 class="list-title">${esc(d.h1)}</h1>
-    <div class="post-list-view" data-next="${esc(next)}">${items}</div>
+    <div class="post-list-view">${items}</div>
     <hr class="divider-2">
-    <div class="pagging"><div class="loading" hidden><div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div></div></div>
+    ${pagination(d)}
   </div>`;
   return layout(ctx, { path: p, bodyClass: 'category_post', meta: d.meta, breadcrumbs: d.breadcrumbs, main: withSidebar(ctx, html), scripts: ['/js/pages.js'] });
 }
@@ -379,14 +374,14 @@ export function checkoutPage() {
   ${REDIRECT_SNIPPET}
   <title>Adzco - Thanh toán đơn hàng</title>
   <meta name="robots" content="noindex">
-  <link rel="icon" href="/assets/img/media/logo-tahawa-den.png">
+  <link rel="icon" href="/assets/img/media/logo-adzco-den.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="/css/style.css?v=${V}">
   <link rel="stylesheet" href="/css/pages.css?v=${V}">
 </head>
 <body class="checkout-page">
 <div class="checkout-wrap">
-  <div class="checkout-logo"><a href="/"><img src="/assets/img/media/logo-tahawa-den.png" alt="logo"></a></div>
+  <div class="checkout-logo"><a href="/"><img src="/assets/img/media/logo-adzco-den.png" alt="logo"></a></div>
   <form action="#" id="checkout-order-form" novalidate>
     <h2 class="title-checkout">Thông tin đặt hàng</h2>
     <div class="checkout-row">

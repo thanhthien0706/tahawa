@@ -112,6 +112,30 @@
     });
   }
 
+  /* ---------------- Thu gọn "Tin cho bạn" ở sidebar ---------------- */
+  function bindSidebarPosts() {
+    var LIMIT = 3;
+    $$('.sb-posts .sb-content').forEach(function (box) {
+      var items = $$('.post-item', box);
+      if (items.length <= LIMIT) return;
+      var hidden = items.slice(LIMIT);
+      hidden.forEach(function (it) { it.hidden = true; });
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'sb-posts__toggle';
+      var moreText = 'Xem thêm (' + hidden.length + ')';
+      btn.textContent = moreText;
+      box.appendChild(btn);
+      var expanded = false;
+      btn.addEventListener('click', function () {
+        expanded = !expanded;
+        hidden.forEach(function (it) { it.hidden = !expanded; });
+        btn.textContent = expanded ? 'Thu gọn' : moreText;
+        if (!expanded && U.smoothScrollTo) U.smoothScrollTo(box.getBoundingClientRect().top + window.pageYOffset - 120, 400);
+      });
+    });
+  }
+
   /* ---------------- Đánh giá sao ---------------- */
   function bindRating() {
     $$('.rating-input').forEach(function (box) {
@@ -369,6 +393,7 @@
     bindQty();
     bindTabs();
     bindCollapse();
+    bindSidebarPosts();
     bindRating();
     bindSort();
     bindInfinite();
