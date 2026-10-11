@@ -601,7 +601,7 @@ strong, b { font-weight: 700; }
    FLOAT BUTTONS
    ========================================================= */
 .float-button {
-  position: fixed; right: 20px; top: 50%; z-index: 999;
+  position: fixed; right: -3px; top: 80%; z-index: 999;
   display: flex; flex-direction: column; align-items: center; gap: 10px;
   transform: translateY(-50%);
 }

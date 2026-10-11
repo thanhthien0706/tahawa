@@ -128,7 +128,7 @@
   Carousel.prototype.updateDots = function () {
     if (!this.dots) return;
     var page = Math.floor(this.index / this.items);
-    if (this.index + this.items > this.count && this.index % this.items) page = Math.min(this.pages() - 1, page + 1);
+    if (!this.loop && this.index >= this.maxIndex()) page = this.pages() - 1;
     Array.prototype.forEach.call(this.dots.children, function (d, i) {
       d.classList.toggle('is-active', i === page);
     });

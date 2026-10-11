@@ -58,7 +58,7 @@ export function layout(ctx, o) {
 ${m.keywords ? `  <meta name="keywords" content="${esc(m.keywords)}">\n` : ''}  <meta property="og:title" content="${esc(title)}">
   <meta property="og:description" content="${esc(m.description || title)}">
 ${m.ogImage ? `  <meta property="og:image" content="${esc(m.ogImage)}">\n` : ''}  <link rel="canonical" href="${esc(o.path)}">
-  <link rel="icon" href="/assets/img/media/logo-adzco-den.png">
+  <link rel="icon" href="/assets/img/media/favicon.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="/css/style.css?v=${V}">
   <link rel="stylesheet" href="/css/pages.css?v=${V}">
@@ -374,7 +374,7 @@ export function checkoutPage() {
   ${REDIRECT_SNIPPET}
   <title>Adzco - Thanh toán đơn hàng</title>
   <meta name="robots" content="noindex">
-  <link rel="icon" href="/assets/img/media/logo-adzco-den.png">
+  <link rel="icon" href="/assets/img/media/favicon.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="/css/style.css?v=${V}">
   <link rel="stylesheet" href="/css/pages.css?v=${V}">
