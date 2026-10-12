@@ -96,7 +96,7 @@ strong, b { font-weight: 700; }
 .hd-main__logo { justify-self: start; }
 .hd-main__logo .logo { display: inline-block; position: relative; z-index: 1; transition: transform .25s ease; }
 .hd-main__logo .logo:hover { transform: scale(1.04); }
-.hd-main__logo img { height: 92px; width: auto; min-height: 20px; display: block; }
+.hd-main__logo img { height: 46px; width: auto; max-width: 100%; min-height: 20px; display: block; }
 
 .hd-main__search { width: 100%; min-width: 0; position: relative; height: 46px; }
 .search-form--wide input {
@@ -691,7 +691,7 @@ strong, b { font-weight: 700; }
   .hm-bar .container { max-width: 100%; }
   .hm-row { position: relative; display: flex; align-items: center; min-height: 50px; }
   .hm-logo { flex: 0 0 50%; max-width: 50%; margin: 0 auto; padding: 0 15px; text-align: center; }
-  .hm-logo img { height: 50px; width: auto; }
+  .hm-logo img { height: 34px; width: auto; max-width: 100%; }
   .hm-tools { position: absolute; top: 50%; right: 0; transform: translateY(-50%); z-index: 999; white-space: nowrap; }
   .hm-tools li { display: inline-block; vertical-align: top; }
   .hm-tools .mini-cart { margin-left: 5px; padding-top: 10px; }
