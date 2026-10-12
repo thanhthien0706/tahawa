@@ -102,29 +102,12 @@
         var t = anchor.getBoundingClientRect().top + y;
         fix(mBar, mSpacer, y > t);
       }
-      toggleScrollTop(y > 200);
     }
     window.addEventListener('scroll', onScroll, { passive: true });
     window.addEventListener('resize', onScroll);
     onScroll();
   }
 
-  /* ---------------- Scroll to top (fadeIn/fadeOut 400ms) ---------------- */
-  var stt, sttVisible = false;
-  function toggleScrollTop(show) {
-    if (!stt || show === sttVisible) return;
-    sttVisible = show;
-    stt.style.transition = 'opacity 400ms';
-    if (show) {
-      stt.style.display = 'block';
-      stt.style.opacity = '0';
-      void stt.offsetWidth;
-      stt.style.opacity = '1';
-    } else {
-      stt.style.opacity = '0';
-      setTimeout(function () { if (!sttVisible) stt.style.display = 'none'; }, 400);
-    }
-  }
   function smoothScrollTo(target, dur) {
     var start = window.pageYOffset, t0 = null;
     dur = dur || 600;
@@ -381,8 +364,6 @@
   document.addEventListener('DOMContentLoaded', function () {
     (window.TAHAWA_BEFORE_INIT || []).forEach(function (fn) { fn(); });
     if (window.TahawaCarousel) $$('.carousel').forEach(function (el) { new window.TahawaCarousel(el); });
-    stt = $('.scroll-to-top');
-    if (stt) stt.addEventListener('click', function (e) { e.preventDefault(); smoothScrollTo(0, 600); });
     bindCategory();
     bindMobileMenu();
     bindSticky();

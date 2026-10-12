@@ -12,7 +12,7 @@
   --price-color: #ff0000;
   --price-sub-color: rgba(255, 0, 0, .45);
   --link-color: #000000;
-  --header-txt-color-hover: #ff0000;
+  --header-txt-color-hover: #ff6600;
   --footer-bg-color: #298ae1;
   --menu-bg-color: #298ae1;
   --menu-txt-color: #ffffff;
@@ -199,9 +199,11 @@ strong, b { font-weight: 700; }
 .menu-nav > li { position: relative; }
 .menu-nav > li > a {
   display: block; padding: 0 15px; line-height: 50px; color: #fff;
-  text-transform: uppercase; white-space: nowrap;
+  text-transform: uppercase; white-space: nowrap; transition: background-color .2s, color .2s;
 }
 .menu-nav > li > a .fa-angle-down { font-size: 16px; }
+.menu-nav > li.active > a,
+.menu-nav > li:hover > a { background-color: var(--header-txt-color-hover) !important; color: #fff !important; }
 .menu-nav .sub-menu {
   position: absolute; top: 50px; left: 0; min-width: 200px; width: 100%;
   padding: 0; background: #fff; color: #000; border-radius: 4px; min-width: 300px;
@@ -228,9 +230,9 @@ strong, b { font-weight: 700; }
 .hd-bar.is-fixed .hd-main { display: none; }
 .hd-bar.is-fixed .hd-nav { background: transparent; }
 .hd-bar.is-fixed .menu-nav > li > a { color: #000; }
-/* Fix lỗi web gốc: mục đang chọn/hover chữ trắng trên nền trắng -> màu xanh chủ đạo */
+/* Fix lỗi web gốc: mục đang chọn/hover chữ trắng trên nền trắng -> nền đỏ chủ đạo */
 .hd-bar.is-fixed .menu-nav > li.active > a,
-.hd-bar.is-fixed .menu-nav > li:hover > a { color: var(--primary-color) !important; }
+.hd-bar.is-fixed .menu-nav > li:hover > a { background-color: var(--header-txt-color-hover) !important; color: #fff !important; }
 .hd-bar.is-fixed .cat-menu { opacity: 0; visibility: hidden; transform: translateY(20px); }
 .hd-bar.is-fixed .navleft:hover .cat-menu { opacity: 1; visibility: visible; transition: .3s ease-in; transform: translateY(0); }
 .hd-bar.is-fixed .cat-menu li.is-hidden { display: block !important; }
@@ -601,9 +603,8 @@ strong, b { font-weight: 700; }
    FLOAT BUTTONS
    ========================================================= */
 .float-button {
-  position: fixed; right: -3px; top: 80%; z-index: 999;
+  position: fixed; right: 20px; bottom: 20px; z-index: 999;
   display: flex; flex-direction: column; align-items: center; gap: 10px;
-  transform: translateY(-50%);
 }
 .fb-item {
   position: relative; width: 80px; height: 80px; z-index: 999;
@@ -635,7 +636,7 @@ strong, b { font-weight: 700; }
 .fb-item--messenger .fb-img { top: 18px; width: 42px; height: 42px; background-size: 32px; opacity: .99; }
 .fb-item--messenger:hover .fb-img { background-color: #00b0ff; }
 @media (max-width: 480px) {
-  .float-button { right: 10px; gap: 6px; }
+  .float-button { right: 10px; bottom: 10px; gap: 6px; }
   .fb-item { width: 64px; height: 64px; }
   .fb-circle { width: 64px; height: 64px; }
   .fb-fill { width: 48px; height: 48px; }
@@ -659,19 +660,6 @@ strong, b { font-weight: 700; }
   40% { transform: rotate(25deg) scale(1) skew(1deg); }
   50%, 100% { transform: rotate(0) scale(1) skew(1deg); }
 }
-
-/* Scroll to top */
-.scroll-to-top {
-  display: none; position: fixed; right: 20px; bottom: 40px; z-index: 996;
-  width: 40px; height: 40px; padding: 0; border: none; border-radius: 25px;
-  background-color: rgba(0, 0, 0, .25); overflow: hidden; transition: transform .3s;
-}
-.scroll-to-top::before, .scroll-to-top::after {
-  content: ""; position: absolute; top: 10px; display: block;
-  width: 5px; height: 18px; background-color: #fff;
-}
-.scroll-to-top::before { left: 12px; transform: rotate(45deg); }
-.scroll-to-top::after { right: 12px; transform: rotate(-45deg); }
 
 /* Notify cart */
 .notify-cart { display: none; position: fixed; inset: 0; z-index: 9999; }
