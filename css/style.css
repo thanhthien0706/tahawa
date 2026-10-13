@@ -679,11 +679,7 @@ strong, b { font-weight: 700; }
    RESPONSIVE (<992px): header mobile, font 90%
    ========================================================= */
 @media (max-width: 991px) {
-  .topbar { text-align: center; }
-  .topbar__inner { display: block; }
-  .topbar__left, .topbar__right { display: inline-block; max-width: 100%; }
-  .topbar__right { text-align: center; }
-  .topbar .user-header { display: none; }
+  .topbar { display: none; }
 
   .header-desktop { display: none; }
   .header-mobile { display: block; }
