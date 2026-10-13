@@ -360,6 +360,34 @@
     });
   }
 
+  /* ---------------- Thanh mua hàng cố định (mobile, trang chi tiết sản phẩm) ---------------- */
+  function bindMobileBuyBar() {
+    var pd = $('.product-detail');
+    if (!pd) return;
+    var cta = $('.btn-buy', pd);
+    if (!cta) return;
+    var priceEl = $('.product-price .new', pd);
+    var priceText = priceEl ? priceEl.textContent.trim() : (pd.dataset.price || '');
+    var code = pd.dataset.id || '';
+
+    document.body.classList.add('has-mobile-buybar');
+    var bar = document.createElement('div');
+    bar.className = 'mobile-buybar';
+    bar.innerHTML =
+      '<div class="mobile-buybar__cell">' +
+        '<span class="mobile-buybar__label">Giá</span>' +
+        '<span class="mobile-buybar__value">' + esc(priceText) + '</span>' +
+      '</div>' +
+      '<button type="button" class="mobile-buybar__buy">' + cta.innerHTML + '</button>' +
+      '<div class="mobile-buybar__cell">' +
+        '<span class="mobile-buybar__label">Mã sản phẩm</span>' +
+        '<span class="mobile-buybar__value">' + esc(code) + '</span>' +
+      '</div>';
+    document.body.appendChild(bar);
+
+    $('.mobile-buybar__buy', bar).addEventListener('click', function () { cta.click(); });
+  }
+
   /* ---------------- Init ---------------- */
   document.addEventListener('DOMContentLoaded', function () {
     (window.TAHAWA_BEFORE_INIT || []).forEach(function (fn) { fn(); });
@@ -372,6 +400,7 @@
     bindForms();
     bindSearch();
     bindToc();
+    bindMobileBuyBar();
     window.addEventListener('resize', setPanelHeight);
   });
 
