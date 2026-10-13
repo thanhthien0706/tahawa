@@ -154,7 +154,7 @@ strong, b { font-weight: 700; }
 .navleft { position: relative; height: 100%; }
 .navleft__title {
   display: flex; align-items: center; height: 100%; padding: 0 24px;
-  background: var(--sub-color); text-transform: uppercase; cursor: pointer; user-select: none;
+  background: var(--header-txt-color-hover); text-transform: uppercase; cursor: pointer; user-select: none;
 }
 .navleft__title .h3 { margin: 0; font-size: 20px; line-height: 50px; font-weight: 400; color: var(--menu-txt-color); }
 .navleft__title .h3 i { margin-right: 5px; }
@@ -203,7 +203,7 @@ strong, b { font-weight: 700; }
 }
 .menu-nav > li > a .fa-angle-down { font-size: 16px; }
 .menu-nav > li.active > a,
-.menu-nav > li:hover > a { background-color: var(--header-txt-color-hover) !important; color: #fff !important; }
+.menu-nav > li:hover > a { color: #fff !important; }
 .menu-nav .sub-menu {
   position: absolute; top: 50px; left: 0; min-width: 200px; width: 100%;
   padding: 0; background: #fff; color: #000; border-radius: 4px; min-width: 300px;
@@ -230,9 +230,9 @@ strong, b { font-weight: 700; }
 .hd-bar.is-fixed .hd-main { display: none; }
 .hd-bar.is-fixed .hd-nav { background: transparent; }
 .hd-bar.is-fixed .menu-nav > li > a { color: #000; }
-/* Fix lỗi web gốc: mục đang chọn/hover chữ trắng trên nền trắng -> nền đỏ chủ đạo */
+/* Fix lỗi web gốc: mục đang chọn/hover chữ trắng trên nền trắng -> chữ cam chủ đạo */
 .hd-bar.is-fixed .menu-nav > li.active > a,
-.hd-bar.is-fixed .menu-nav > li:hover > a { background-color: var(--header-txt-color-hover) !important; color: #fff !important; }
+.hd-bar.is-fixed .menu-nav > li:hover > a { color: var(--header-txt-color-hover) !important; }
 .hd-bar.is-fixed .cat-menu { opacity: 0; visibility: hidden; transform: translateY(20px); }
 .hd-bar.is-fixed .navleft:hover .cat-menu { opacity: 1; visibility: visible; transition: .3s ease-in; transform: translateY(0); }
 .hd-bar.is-fixed .cat-menu li.is-hidden { display: block !important; }
